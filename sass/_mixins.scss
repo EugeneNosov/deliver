@@ -1,0 +1,14 @@
+@mixin p-text-style {
+    font: {
+        size: 16px;
+        family: 'Roboto', sans-serif;
+    }
+    color: #9b9999;
+}
+@mixin h-text-style($size, $color) {
+    font: {
+        size: $size;
+        family: 'Montserrat', sans-serif;
+    }
+    color: $color;
+}
