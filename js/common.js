@@ -2,7 +2,6 @@ $(document).ready(function() {
   $('.menu_button').click(function() {
     $('nav, #back').toggleClass('open');
   });
-    
     var owl = $('#owl');
     owl.owlCarousel({
       slideSpeed : 500,
